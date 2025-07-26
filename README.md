@@ -2,6 +2,8 @@
 
 This Java program reads data from a social media network and visualizes it as a directed graph using the DOT format. Each user and post is represented as a node, with arrows showing authorship and viewership. "Interesting" users are color-coded based on how many criteria they match, in the preset example "interesting" criteria are posts authored, gender set as male, and located in Japan.
 
+Feel free to adjust the interesting criteria in the GraphExporter.java file within the calculateInterest function if you would like to adjust what the program considers to be "interesting."
+
 # How to Run
 
 1. Simply clone the repository via GitHub Desktop
